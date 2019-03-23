@@ -1,0 +1,89 @@
+.contenedor-from{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  
+    align-content: space-between;
+}
+
+.cabeza{
+font-family:'Times New Roman', Times, serif;
+color: navy;
+font-size: 25px;
+align-content: center;
+align-items: center;
+
+
+}
+
+.cabeza h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-shadow: 10px 10px 10px rgb(110, 110, 153);
+
+}
+.inicio-cabeza{
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    font-size: 25px;
+}
+.cabeza2{
+font-family: 'Times New Roman', Times, serif;
+color:navy;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.button-enviar{
+
+    color: navy;
+    background-color: transparent;
+    border: 15px white;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.ingreso-menu ul a{
+    font-family: 'Times New Roman', Times, serif;
+  color: white;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  display: flex;
+  padding-bottom: 10px;
+  font-size: xx-large;
+}
+.menu ul a
+{
+    font-family: 'Times New Roman', Times, serif;
+  color: white;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-decoration: none;
+  display: flex;
+  padding-bottom: 10px;
+  font-size: xx-large;
+}
+body{
+    background: url(../img/videos-fondo-web-1140x713.jpg) no-repeat fixed center center;
+    background-size: cover;
+
+}
