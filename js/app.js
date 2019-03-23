@@ -11,10 +11,10 @@
         let re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
         if(!re.test($("#email").val())){
-            $('.error-email').html('Ingrese un email valido');
+            $('.error_email').html('Ingrese un email valido');
         }
         else{ 
-            $('.error-email').html('');
+            $('.error_email').html('');
         }
 
     });
@@ -24,10 +24,10 @@
 
         if(!re.test($("#contra").val())){
     
-            $('.error_pass').html('Ingrese una contraseña válida');
+            $('.error_contra').html('Ingrese una contraseña válida que contenga Mayusculas, minusculas, numeros y signos');
         }
         else{ 
-            $('.error_pass').html('');
+            $('.error_contra').html('');
         }
 
     });
