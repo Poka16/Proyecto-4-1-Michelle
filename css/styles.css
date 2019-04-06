@@ -64,7 +64,7 @@ color:navy;
   justify-items: center;
   align-items: center;
   align-content: center;
-  text-decoration: none;
+  text-decoration-style: unset;
   display: flex;
   padding-bottom: 10px;
   font-size: xx-large;
@@ -72,15 +72,23 @@ color:navy;
 .menu ul a
 {
     font-family: 'Times New Roman', Times, serif;
-  color: white;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  align-content: center;
-  text-decoration: none;
-  display: flex;
-  padding-bottom: 10px;
-  font-size: xx-large;
+    text-decoration-style: unset;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.menu ul{
+    
+    display: flex;
+    color: white;
+    
+    font: icon;
+    
+    
+}
+.menu ul a :hover{
+    background-color: white;
+    color:navy;
 }
 body{
     background: url(../img/videos-fondo-web-1140x713.jpg) no-repeat fixed center center;
