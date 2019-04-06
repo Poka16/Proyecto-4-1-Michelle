@@ -73,6 +73,7 @@ color:navy;
 {
     font-family: 'Times New Roman', Times, serif;
     text-decoration-style: unset;
+    margin-right: 10px;
     padding: 10px;
     color: white;
     cursor: pointer;
